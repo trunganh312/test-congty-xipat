@@ -1,0 +1,14 @@
+.sidebar-item a.active {
+  color: rgb(7, 7, 236);
+}
+
+.button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.active > .button {
+  border-color: blue;
+  color: blue;
+}
